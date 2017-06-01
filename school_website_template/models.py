@@ -1,7 +1,17 @@
+# -*- coding: utf-8 -*-
+
 from django.db import models
 from django.contrib.auth.models import User
 from ckeditor_uploader.fields import RichTextUploadingField
-from .models_properties.website_post_properties import CATEGORIES
+#from .models_properties.website_post_properties import CATEGORIES
+
+CATEGORIES = (
+        ("wydarzenia", "wydarzenia"),
+        ("informacje", "informacje"),
+        ("konkursy", "konkursy"),
+        ("wycieczki", "wycieczki"),
+        ("sport", "sport"),)
+
 
 
 class WebsitePost(models.Model):
