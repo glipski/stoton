@@ -13,7 +13,7 @@ SECRET_KEY = '=bwh6_!-h6$_+c$jc===81te-*=khle4veg78p37e$24=so9l8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1', 'stoton.herokuapp.com']
 
 
 # Application definition
